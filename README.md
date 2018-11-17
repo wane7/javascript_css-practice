@@ -7,4 +7,6 @@ where those two meet. The clock at the bottom didn't come out like I wanted it t
 other features I'm still working on. Another piece of the bigger puzzle. This example is a work in 
 progress. 
 
+#### Update: The Clock is working for now. Still work in progress.
+
 Until next time >quote: "The Adventure." {;-)

@@ -50,11 +50,37 @@ function clickMe (){
     };
 
     
+    
+    const time = (function(){
 
-    let setHours = new Date();
-    document.getElementById("clock").innerHTML = setHours.getHours();
-    
-    
+        let currentTime = new Date();
+        let setting = "AM";
+        let h = currentTime.getHours();
+        let m = currentTime.getMinutes();
+        let s = currentTime.getSeconds();
+
+        if (h === 0) {
+            h = 12;
+        }else if (h>12){
+            h = h-12;
+            setting = "PM";
+        }
+
+        if (h < 10){
+            h = '0'+ h;
+        }else if (m < 10){
+            m = '0'+ m;
+        }else if (s < 10){
+            s = '0'+ s;
+        }
+
+        let myClock = document.getElementById("clock");
+        myClock.textContent = h + ':' + m + ':' + s + '' +  setting;
+        myClock.innerHTML = h + ':' + m + ':' + s + '' + setting;
+        setTimeout('time()',1000);
+    });
+
+    time();
     
 
 
