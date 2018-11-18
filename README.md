@@ -9,4 +9,6 @@ progress.
 
 #### Update: The Clock is working for now. Still work in progress.
 
+#### Update: Had to make a change to the clock still testing and watching this file. There might still be some issues with the clock. Need to watch the time over the next few days to know for sure. Still work in progress.
+
 Until next time >quote: "The Adventure." {;-)
