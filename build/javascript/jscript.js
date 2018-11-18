@@ -67,7 +67,7 @@ function clickMe (){
         }
 
         if (h < 10){
-            h = '0'+ h;
+            h =  h;
         }else if (m < 10){
             m = '0'+ m;
         }else if (s < 10){
