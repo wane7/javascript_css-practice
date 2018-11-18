@@ -65,12 +65,16 @@ function clickMe (){
             h = h-12;
             setting = "PM";
         }
-
-        if (h < 10){
+        
+        
+        if (h < 11){
+            //h<10 original set
             h =  h;
-        }else if (m < 10){
+        }else if (m < 11){
+            //h<10 original set
             m = '0'+ m;
-        }else if (s < 10){
+        }else if (s < 11){
+            //h<10 original set
             s = '0'+ s;
         }
 

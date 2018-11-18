@@ -56,6 +56,14 @@ color:whitesmoke;
 cursor: pointer;
 }
 
+#selector {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    width: 20px;
+    margin-left: 20px;
+}
+
 #clock {
     color:red;
     font-size: 5rem;
