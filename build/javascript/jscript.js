@@ -66,13 +66,14 @@ function clickMe (){
             setting = "PM";
         }
         
+      
         
         if (h < 11){
             //h<10 original set
             h =  h;
         }else if (m < 11){
             //h<10 original set
-            m = '0'+ m;
+            m = '0'+ m ;
         }else if (s < 11){
             //h<10 original set
             s = '0'+ s;
@@ -82,25 +83,12 @@ function clickMe (){
         myClock.textContent = h + ':' + m + ':' + s + '' +  setting;
         myClock.innerHTML = h + ':' + m + ':' + s + '' + setting;
         setTimeout('time()',1000);
+       
     });
 
     time();
-    
+   
 
-
-
-// let content= document.querySelector('.container').addEventListener('click',color);
-
-
-
-// let text = 'Are you ready to code some';
-       
-// alert('This is Javascript');
-// setTimeout (()=>alert(`${text} Javascript ? `),1000);
-// setTimeout (()=> document.write('press F12'), 1000);
-
-// const text2= 'Lets code some';
-// console.log(`${text2} javascript`);
 
 
 
