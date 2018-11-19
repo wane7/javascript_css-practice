@@ -11,4 +11,6 @@ progress.
 
 #### Update: Had to make a change to the clock still testing and watching this file. There might still be some issues with the clock. Need to watch the time over the next few days to know for sure. Still work in progress.
 
+#### Update: The clock minute values changes, when below 10. Haven't figured it out, either I will or want. Still work in progress.
+
 Until next time >quote: "The Adventure." {;-)
