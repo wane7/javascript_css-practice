@@ -1,9 +1,4 @@
-//button example
-// let button = document.querySelector('.btn1').addEventListener('click',clicked);
 
-// function clicked () {
-// console.log('button clicked');
-// };
 
 //Date and Time format
 let dateTime = new Date();
@@ -26,12 +21,10 @@ function toggleDate (){
 /*Button and function for the paragraph background color change */
 
 let button = document.querySelector('.btn1').addEventListener('click',clickMe);
-
 let container = document.querySelector('.container');
 
 function clickMe (){
     
-     console.log('click test');
      container.style.backgroundColor=' green';
      container.style.color='#f4f4f4';
      setTimeout (()=> container.style.color='green', 1000);
@@ -46,11 +39,8 @@ function clickMe (){
      setTimeout (()=> container.style.color='red', 9000);
      setTimeout (()=> container.style.backgroundColor='white', 11000);
      setTimeout (()=> container.style.color='#444', 11000);
-     clock.style.color='red';
-    };
-
-    
-    
+     };
+   
     const time = (function(){
 
         let currentTime = new Date();
@@ -66,22 +56,20 @@ function clickMe (){
             setting = "PM";
         }
         
-      
-        
         if (h < 11){
             //h<10 original set
             h =  h;
         }else if (m < 11){
             //h<10 original set
-            m = '0'+ m ;
+            m =  m ;
         }else if (s < 11){
             //h<10 original set
-            s = '0'+ s;
+            s =  s;
         }
 
         let myClock = document.getElementById("clock");
-        myClock.textContent = h + ':' + m + ':' + s + '' +  setting;
-        myClock.innerHTML = h + ':' + m + ':' + s + '' + setting;
+        myClock.textContent = h + ':' + m + ':' + s + ' ' +  setting;
+        myClock.innerHTML = h + ':' + m + ':' + s + ' ' + setting;
         setTimeout('time()',1000);
        
     });
